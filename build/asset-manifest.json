@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/market-practice/static/css/main.fd189d91.css",
-    "main.js": "/market-practice/static/js/main.38f220cb.js",
+    "main.js": "/market-practice/static/js/main.50562ae3.js",
     "static/js/787.7f5a6c2b.chunk.js": "/market-practice/static/js/787.7f5a6c2b.chunk.js",
     "static/media/shopping-cart.png": "/market-practice/static/media/shopping-cart.78d31f89fd0956c424f9.png",
     "static/media/home.png": "/market-practice/static/media/home.be5fbb67bdaceb498ef8.png",
     "index.html": "/market-practice/index.html",
     "main.fd189d91.css.map": "/market-practice/static/css/main.fd189d91.css.map",
-    "main.38f220cb.js.map": "/market-practice/static/js/main.38f220cb.js.map",
+    "main.50562ae3.js.map": "/market-practice/static/js/main.50562ae3.js.map",
     "787.7f5a6c2b.chunk.js.map": "/market-practice/static/js/787.7f5a6c2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd189d91.css",
-    "static/js/main.38f220cb.js"
+    "static/js/main.50562ae3.js"
   ]
 }

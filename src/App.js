@@ -8,7 +8,7 @@ import cartLogo from './logos/shopping-cart.png';
 function App() {
   const [products, setProducts] = useState([{ id: 1, name: 'Bold toothbrush', price: 5 }, { id: 2, name: 'Paper buket', price: 7 }, { id: 3, name: 'Crazy racoon', price: 30 }, { id: 4, name: 'Lumpy Pan', price: 29 }])
   const [cartList, setCartList] = useState();
-  
+
 
   const addItems = (i) => {
     const newItem = products.filter((item) => item.id === i);
@@ -45,9 +45,9 @@ function App() {
       return (
         <div>
           <h1>Congratulations!!!</h1><br></br>
-         <h2>$$$$ All you'r money was transferd to US and you'r products was sent to NEPAL.$$$$ <br></br>
-          Good luck.</h2>
-         </div>
+          <h2>$$$$ All you'r money was transferd to US and you'r products was sent to NEPAL.$$$$ <br></br>
+            Good luck.</h2>
+        </div>
       )
     } else {
       return (
@@ -87,7 +87,7 @@ function App() {
       <div className='productContainer'>
         {renavigate()}
       </div>
-
+      <p style={{color:`red`}}>Test content works !!!</p>
     </div>
   );
 }
