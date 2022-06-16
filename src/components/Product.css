@@ -1,0 +1,42 @@
+.container {
+    display: block;
+    text-align: left;
+    background-color: rgb(106, 106, 106);
+    border: 3px solid rgb(73, 73, 73);
+    margin-bottom: 3px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+div.container:hover {
+    background-color: rgb(200, 177, 128);
+    box-shadow: 0px 0px 5px whitesmoke;
+    
+}
+.infoSlot {
+    display: inline-block;
+    margin: 0%;
+    margin-bottom: 3px;
+    padding: 5px;
+    text-align: left;
+    width: 50px;
+    font-size: x-large;
+}
+
+
+button {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: rgb(250, 174, 82);
+    font-size: xx-large;
+}
+
+div.container:hover button {
+    background-color: rgb(253, 207, 22);
+}
+button:active{
+    border: inset;
+}
